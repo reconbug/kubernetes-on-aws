@@ -97,6 +97,7 @@ Resources:
           Ebs:
             VolumeSize: 50
             VolumeType: standard
+            Encrypted: true
         EbsOptimized: false
         IamInstanceProfile:
           Name: !Ref AutoScalingInstanceProfile
